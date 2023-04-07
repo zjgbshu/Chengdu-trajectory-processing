@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import datetime
 
 # 输入文件夹路径和输出文件夹路径
-input_dir = 'F:\MarineTraffic/nettraj/tptk\data/'
-output_dir = 'F:\MarineTraffic/nettraj/tptk\data_source/'
+input_dir = ''
+output_dir = ''
 
 # 获取文件夹内的所有txt文件
 txt_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
