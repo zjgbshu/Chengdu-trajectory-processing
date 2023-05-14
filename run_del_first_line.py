@@ -3,10 +3,10 @@ import os
 #TPTK清洗后，首行的注释信息需要删除
 
 # 输入文件夹路径
-folder_path = "D:/Nettraj/Chengdu201408/5.TPTK清洗噪点后数据（0818-0830）/20140830/"
+folder_path = ""
 
 # 输入保存目录路径
-save_path = "D:/Nettraj/Chengdu201408/6.删除清洗后首行信息数据（0818-0830）/20140830/"
+save_path = ""
 
 # 获取文件夹内所有txt文件
 files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f)) and f.endswith('.txt')]
